@@ -1,0 +1,12 @@
+/*****************************
+ All rights reserved.
+ AllFont.net (c) 2011-2015
+ *****************************/
+ @font-face {
+    font-family: 'English 111 Vivace BT';
+    font-style: normal;
+    font-weight: 400;
+    src: local('English 111 Vivace BT'), local('English111VivaceBT-Regular'),
+        url('./english-111-vivace-bt_930c028fae3a090fdd68a366a92ec7d3.woff') format("woff"),
+        url('./english-111-vivace-bt_930c028fae3a090fdd68a366a92ec7d3.ttf') format("truetype");
+}

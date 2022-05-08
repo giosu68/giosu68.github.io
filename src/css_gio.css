@@ -5009,7 +5009,7 @@ textarea.form-control {
 	
 .w-detail .title{ margin: 10px 0; }
 
-.w-detail .icon{ font-size: 3.5em; line-height: 1; color: #ffa70794; }
+.w-detail .icon{ font-size: 3.5em; line-height: 1; }
 @media only screen and (max-width: 767px) {
 
 .wedding-details{ margin-left: 15px; overflow: visible; }
@@ -5034,7 +5034,7 @@ textarea.form-control {
     position: absolute;
     content: " ";
     width: 1px;
-    border-right: 1px solid #ffa70794;
+    border-right: 1px solid;
     left: 50%;
     margin-left: 0px; }
     @media (max-width: 767.98px) {

@@ -4756,10 +4756,10 @@ h5,
       @media (max-width: 767.98px) {
         .video-hero .text .subheading:after, .video-hero .text .subheading:before {
           display: none; } }
-    .video-hero .text h1 {
+    /* .video-hero .text h1 {
       font-family: "Great Vibes", cursive;
       font-size: 9vw;
-      color: #fff; }
+      color: #fff; } */
 
 #timer {
   width: 60%;
@@ -5612,8 +5612,31 @@ textarea.form-control {
   @media (max-width: 800px) {
     .img-gio{
       height: 200px
-    } }
+    } 
+    .title-layout{
+      color: white;
+      font-family: 'English 111 Vivace BT';
+      font-size: 7vh;
+    }
+    .time-layout{
+      color: white;
+      font-family: 'English 111 Vivace BT';
+      font-size: 3vh;
+    }
+  }
+
   @media (min-width: 800.1px) {
     .img-gio{
       height: 400px
-    } }
+    } 
+    .title-layout{
+      color: white;
+      font-family: 'English 111 Vivace BT';
+      font-size: 9vw;
+    }
+    .time-layout{
+      color: white;
+      font-family: 'English 111 Vivace BT';
+      font-size: 3vw;
+    }
+  }

@@ -41,9 +41,9 @@
       <div class="col-md-12" style="top: -100px">
         <div class="text text-center">
           <span class="subheading">Il matrimonio di</span>
-          <h1 style="font-family: 'English 111 Vivace BT'">Giosuè &amp; Greta</h1>
-          <div id="timerG" class="d-flex justify-content-center" style="color:white">
-            <h2 class= "d-flex" style="color:white;font-family: 'English 111 Vivace BT'">
+          <h1 class="title-layout">Giosuè &amp; Greta</h1>
+          <div id="timerG" class="d-flex justify-content-center">
+            <h2 class= "d-flex time-layout">
               <div style="padding-right: 20px;" class="col-3"><br>Giorni</div>
               <div style="padding-right: 20px;" class="col-3"><br>Ore</div>
               <div style="padding-right: 20px;" class="col-3"><br>Minuti</div>
@@ -197,7 +197,7 @@ var x = setInterval(function() {
   // document.getElementById("minutesG").innerHTML = "<h1 style=\"color:white\">"+minutes+"<br>Minuti</h1";
   // document.getElementById("secondsG").innerHTML = "<h1 style=\"color:white\">"+seconds+"<br>Secondi</h1";
 
-  document.getElementById("timerG").innerHTML = "<h2 class= \"d-flex\" style=\"color:white;font-size:3vw;font-family: 'English 111 Vivace BT', cursive;\"> <div style=\"padding-right: 20px;\" class=\"col-3\">"+days+"<br>Giorni</div><div style=\"padding-right: 20px;\" class=\"col-3\">"+hours+"<br>Ore</div> <div style=\"padding-right: 20px;\" class=\"col-3\">"+minutes+"<br>Minuti</div> <div class=\"col-3\">"+seconds+"<br>Secondi</div> </h2>"
+  document.getElementById("timerG").innerHTML = "<h2 class= \"d-flex time-layout\" > <div style=\"padding-right: 20px;\" class=\"col-3\">"+days+"<br>Giorni</div><div style=\"padding-right: 20px;\" class=\"col-3\">"+hours+"<br>Ore</div> <div style=\"padding-right: 20px;\" class=\"col-3\">"+minutes+"<br>Minuti</div> <div class=\"col-3\">"+seconds+"<br>Secondi</div> </h2>"
 
   // If the count down is finished, write some text
   if (distance < 0) {

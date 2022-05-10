@@ -11,6 +11,18 @@
   font-style: normal;
 
 }
+@font-face {
+  font-family: 'untitled-font-1';
+  src:url("./icons/church_icomoon.eot");
+  src:url("./icons/church_icomoon.eot") format("embedded-opentype"),
+    url("./icons/church_icomoon.woff") format("woff"),
+    url("./icons/church_icomoon.ttf") format("truetype"),
+    url("./icons/church_icomoon.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+
+}
 
 [data-icon]:before {
   font-family: "untitled-font-1" !important;
@@ -38,6 +50,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-wedding-church-8474:before {
+  content: "\e900";
+}
 .icon-home:before {
   content: "\61";
 }
